@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /*-------Inicio Header-------*/
@@ -14,7 +14,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 15px 0;
-    background-color: #F5F4F6;
+    background-color: #f5f4f6;
     position: fixed;
     width: 100%;
 }
@@ -41,11 +41,11 @@ a {
 }
 
 a:hover {
-    color: #E947B9;
+    color: #e947b9;
 }
 
 h1 {
-    color: #E947B9;
+    color: #e947b9;
 }
 
 /*-------Fin Header-------*/
@@ -53,7 +53,8 @@ h1 {
 /*-------Inicio Primera Seccion-------*/
 
 .AprendeAProgramar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(media/hero.jpg);
     width: 100%;
     height: 90vh;
     background-repeat: no-repeat;
@@ -76,11 +77,11 @@ h1 {
     padding: 10px 35px;
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: #E947B9;
+    background-color: #e947b9;
     border: none;
     color: white;
     border-radius: 5px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
 
@@ -95,13 +96,16 @@ h1 {
 }
 
 .imagen {
-    background-image: url(media/programadorassssss.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 380px;
-    height: 450px;
-    margin-left: 150px;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+.imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .texto {
@@ -119,14 +123,14 @@ h1 {
 }
 
 .text-rose {
-    color: #E947B9;
+    color: #e947b9;
 }
 
 /*-------Fin Seccion Quienes somos-------*/
 
 /*-------Inicio Seccion Nuestros Programas-------*/
 #NuestrosProgramas {
-    background-color: #1F1E1F;
+    background-color: #1f1e1f;
     text-align: center;
     padding: 2.5rem 1.5rem;
 }
@@ -137,7 +141,9 @@ h1 {
     align-content: center;
 }
 
-.front-end, .full-stack, .python {
+.front-end,
+.full-stack,
+.python {
     background-position: center;
     background-size: 100%;
     height: 140px;
@@ -150,15 +156,18 @@ h1 {
 }
 
 .front-end {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(media/front-end.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(media/front-end.jpg);
 }
 
 .full-stack {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(media/full-stack.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(media/full-stack.jpg);
 }
 
 .python {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(media/python-logo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(media/python-logo.jpg);
 }
 
 .contenedor-2 {
@@ -166,10 +175,10 @@ h1 {
     width: 350px;
     height: 450px;
     border-radius: 10px;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
-.titulo{
+.titulo {
     color: white;
     font-size: 2rem;
     padding: 30px 25px;
@@ -199,14 +208,15 @@ h1 {
 .btn-dev {
     padding: 10px 25px;
     width: 100px;
-    background-color: #E947B9;
+    background-color: #e947b9;
     border: none;
     color: white;
     border-radius: 2px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
     cursor: pointer;
     align-items: center;
 }
+
 /*-------Fin Seccion Nuestros Programas-------*/
 
 /*-------Inicio Seccion Caracteristicas-------*/
@@ -221,14 +231,14 @@ h1 {
 }
 
 .imagen2 {
-    background-image: url('media/ellas.png');
+    background-image: url("media/ellas.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 500px;
     height: 500px;
 }
 
-.list ul li{
+.list ul li {
     font-size: 20px;
     font-weight: 500;
     list-style: none;
@@ -242,7 +252,7 @@ h1 {
 /*-------Fin Seccion Caracteristicas-------*/
 
 #fondo {
-    background-color: #E960B5;
+    background-color: #e960b5;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -252,13 +262,13 @@ h1 {
 }
 
 .rosa {
-    border: 1px solid #DC1F95;
+    border: 1px solid #dc1f95;
 }
 
 footer {
     width: 100%;
     height: 150px;
-    background-color: #E6E5E6;
+    background-color: #e6e5e6;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -266,15 +276,45 @@ footer {
 
 footer p {
     margin-right: 100px;
-    color: #8E8E93;
+    color: #8e8e93;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .imagen {
+        width: 550px;
+        height: 450px;
+        margin-left: 0;
+    }
+
+    .texto {
+        margin-left: 50px;
+    }
+
+    .contenedor-2 {
+        width: 250px;
+    }
+
+    .front-end,
+    .full-stack,
+    .python {
+        height: 90px;
+    }
+
+    .titulo2 {
+        font-size: 1.3rem;
+    }
+
+    .parafo {
+        font-size: 0.6rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     header {
         flex-direction: column;
         align-items: center;
-        position:absolute;
+        position: absolute;
     }
 
     h1 {
@@ -293,18 +333,18 @@ footer p {
 
     .contenedor {
         padding: 0;
+        margin-left: -90px;
+        width: 100%;
     }
 
-    .imagen {
-        background-image: none;
-        width: 0;
-        height: 500px;
+    .imagen img {
+        display: none;
     }
 
     .texto {
-        width: 100%;
-        margin-left: -150px;
+        width: 300%;
         text-align: center;
+
     }
 
     .contenedor-principal {
@@ -313,16 +353,19 @@ footer p {
         text-align: center;
     }
 
-    .front-end, .full-stack, .python {
+    .front-end,
+    .full-stack,
+    .python {
         height: 240px;
         background-size: cover;
         position: relative;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        
     }
+
     .python {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('media/python.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("media/python.jpg");
     }
 
     .parrafo {
@@ -342,12 +385,16 @@ footer p {
         bottom: 50px;
     }
 
+    .titulo2 {
+        font-size: 2rem;
+    }
+
     .imagen2 {
         background-image: none;
         height: 180px;
     }
 
-    .contenedor-3 { 
+    .contenedor-3 {
         justify-content: center;
         flex-direction: column;
     }
@@ -364,36 +411,4 @@ footer p {
     #fondo .Aprendiendo {
         font-size: 2.5rem;
     }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 800px) {
-    .contenedor {
-        padding: 4rem 3rem;
-    }
-
-    .imagen {
-        margin-left: 20px;
-        width: 750px;
-    }
-
-    .texto {
-        margin-left: 50px; 
-    }
-
-    .contenedor-2 {
-        width: 200px;
-    }
-
-    .front-end, .full-stack, .python {
-        height: 90px;
-    }
-    
-    .titulo2 {
-        font-size: 1.5rem;
-    }
-
-    .parafo {
-        font-size: 0.7rem;
-    }
-
 }
