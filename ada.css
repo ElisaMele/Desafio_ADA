@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------Inicio Header-------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #F5F4F6;
+    position: fixed;
+    width: 100%;
+}
+
+header nav li {
+    list-style: none;
+}
+
+h1 {
+    padding-left: 4rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E947B9;
+}
+
+h1 {
+    color: #E947B9;
+}
+
+/*-------Fin Header-------*/
+
+/*-------Inicio Primera Seccion-------*/
+
+.AprendeAProgramar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/hero.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aprendiendo {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.btn {
+    padding: 10px 35px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #E947B9;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+/*-------Fin Primera Seccion-------*/
+
+/*-------Inicio Seccion Quienes somos-------*/
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7.5rem 3rem;
+}
+
+.imagen {
+    background-image: url(media/programadorassssss.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    margin-left: 150px;
+}
+
+.texto {
+    margin-left: 100px;
+    width: 600px;
+}
+
+.somos-parrafo {
+    padding-top: 30px;
+}
+
+.somos {
+    color: black;
+    font-size: 2rem;
+}
+
+.text-rose {
+    color: #E947B9;
+}
+
+/*-------Fin Seccion Quienes somos-------*/
+
+/*-------Inicio Seccion Nuestros Programas-------*/
+#NuestrosProgramas {
+    background-color: #1F1E1F;
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.front-end, .full-stack, .python {
+    background-position: center;
+    background-size: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.front-end {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(media/front-end.jpg);
+}
+
+.full-stack {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(media/full-stack.jpg);
+}
+
+.python {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(media/python-logo.jpg);
+}
+
+.contenedor-2 {
+    background-color: #333233;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+}
+
+.titulo{
+    color: white;
+    font-size: 2rem;
+    padding: 30px 25px;
+}
+
+.titulo2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo2 span {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+    padding: 20px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+}
+
+.btn-dev {
+    padding: 10px 25px;
+    width: 100px;
+    background-color: #E947B9;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .4);
+    cursor: pointer;
+    align-items: center;
+}
+/*-------Fin Seccion Nuestros Programas-------*/
+
+/*-------Inicio Seccion Caracteristicas-------*/
+#Caracteristicas {
+    padding: 50px 50px;
+}
+
+.contenedor-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagen2 {
+    background-image: url('media/ellas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.list ul li{
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.icon {
+    width: 30px;
+    vertical-align: middle;
+}
+
+/*-------Fin Seccion Caracteristicas-------*/
+
+#fondo {
+    background-color: #E960B5;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rosa {
+    border: 1px solid #DC1F95;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #E6E5E6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer p {
+    margin-right: 100px;
+    color: #8E8E93;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        position:absolute;
+    }
+
+    h1 {
+        padding: 0;
+    }
+
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AprendeAProgramar {
+        padding-top: 300px;
+    }
+
+    .contenedor {
+        padding: 0;
+    }
+
+    .imagen {
+        background-image: none;
+        width: 0;
+        height: 500px;
+    }
+
+    .texto {
+        width: 100%;
+        margin-left: -150px;
+        text-align: center;
+    }
+
+    .contenedor-principal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .front-end, .full-stack, .python {
+        height: 240px;
+        background-size: cover;
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+    }
+    .python {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('media/python.jpg');
+    }
+
+    .parrafo {
+        display: none;
+    }
+
+    .contenedor-2 {
+        height: 240px;
+        width: 360px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+    }
+
+    .btn-dev {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .imagen2 {
+        background-image: none;
+        height: 180px;
+    }
+
+    .contenedor-3 { 
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .list {
+        padding-top: 100px;
+    }
+
+    .list ul li {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #fondo .Aprendiendo {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .contenedor {
+        padding: 4rem 3rem;
+    }
+
+    .imagen {
+        margin-left: 20px;
+        width: 750px;
+    }
+
+    .texto {
+        margin-left: 50px; 
+    }
+
+    .contenedor-2 {
+        width: 200px;
+    }
+
+    .front-end, .full-stack, .python {
+        height: 90px;
+    }
+    
+    .titulo2 {
+        font-size: 1.5rem;
+    }
+
+    .parafo {
+        font-size: 0.7rem;
+    }
+
+}
