@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*-------Inicio Header-------*/
@@ -24,15 +24,16 @@ header nav li {
 }
 
 h1 {
-    padding-left: 4rem;
+    padding-left: 6rem;
+    font-size: 1.5rem;
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
     cursor: pointer;
-    font-weight: 500;
     padding: 10px 40px;
+    font-weight: bold;
 }
 
 a {
@@ -56,7 +57,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(media/hero.jpg);
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,9 +69,9 @@ h1 {
 
 .Aprendiendo {
     color: white;
-    font-size: 3.5rem;
+    font-size: 4.2rem;
     text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 4.5rem;
 }
 
 .btn {
@@ -110,7 +111,7 @@ h1 {
 
 .texto {
     margin-left: 100px;
-    width: 600px;
+    width: 550px;
 }
 
 .somos-parrafo {
@@ -132,7 +133,7 @@ h1 {
 #NuestrosProgramas {
     background-color: #1f1e1f;
     text-align: center;
-    padding: 2.5rem 1.5rem;
+    padding: 5rem 1.5rem;
 }
 
 .contenedor-principal {
@@ -181,7 +182,7 @@ h1 {
 .titulo {
     color: white;
     font-size: 2rem;
-    padding: 30px 25px;
+    padding-bottom: 60px;
 }
 
 .titulo2 {
@@ -196,9 +197,11 @@ h1 {
 
 .parrafo {
     padding: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     text-align: center;
+    font-weight: 600;
+    line-height: 25px;
 }
 
 .boton {
@@ -240,13 +243,9 @@ h1 {
 
 .list ul li {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     list-style: none;
-}
-
-.icon {
-    width: 30px;
-    vertical-align: middle;
+    line-height: 40px;
 }
 
 /*-------Fin Seccion Caracteristicas-------*/
@@ -280,36 +279,44 @@ footer p {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 855px) {
+    h1 {
+        padding-left: 3rem;
+    }
+
+    .contenedor {
+        margin: 10px 0;
+    }
+
     .imagen {
-        width: 750px;
-        height: 450px;
-        margin-left: 0;
+        margin-left: 10px;
+        width: 400px;
+        height: 350px;
     }
 
     .texto {
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     .contenedor-2 {
-        width: 220px;
-        height: 480px;
-    }
-
-    .front-end,
-    .full-stack,
-    .python {
-        height: 90px;
+        width: 230px;
+        height: 450px;
     }
 
     .titulo2 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
-    .parafo {
-        font-size: 0.6rem;
+    .parrafo {
+        font-size: 0.9rem;
     }
 
+    .imagen2 {
+        width: 350px;
+        height: 350px;
+        margin-top: 70px;
+    }
+    
 }
 
 @media only screen and (max-width: 500px) {
@@ -335,7 +342,7 @@ footer p {
 
     .contenedor {
         padding: 0;
-        margin-left: -90px;
+        margin-left: -50px;
         width: 100%;
     }
 
@@ -346,7 +353,6 @@ footer p {
     .texto {
         width: 300%;
         text-align: center;
-
     }
 
     .contenedor-principal {
